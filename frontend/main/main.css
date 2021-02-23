@@ -1,0 +1,131 @@
+body{
+  background-color: #F6F9EA;
+}
+body, title, h1, h2, ul, li, div{
+  /*
+font-family: "Optima", "Bookman Old Style";
+*/
+font-family: "Montserrat";
+}
+title, h1, h2{
+  text-align: center;
+}
+title{
+  display: block;
+}
+h1{
+  color: black;
+  /*
+color: white;
+text-shadow: -1.5px 0 black, 0 1.5px black, 1.5px 0 black, 0 -1.5px black;
+*/
+letter-spacing: 0.2em;
+}
+h2{
+  color: #BADFBD;
+  text-shadow: -1.5px 0 black, 0 1.5px black, 1.5px 0 black, 0 -1.5px black;
+  letter-spacing: 0.2em;
+}
+h3{
+  text-align: center;
+  max-width: 100%;
+  width: auto;
+}
+div:not(.nav_bar){
+  text-align: center;
+  font-family: "Optima";
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+  background-color: #F8A978;
+}
+#discover_hmpg{
+
+  float: right;
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+
+}
+#welcome{
+  padding: 25px;
+  margin-top: 20px;
+}
+
+#discover_hmpg li{
+  background-color: #F6F9EA;
+  float: left;
+  text-align: left;
+  display: block;
+  width: 25%;
+}
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.nav_bar ul{
+  overflow: hidden;
+  background-color: #FFC5A1;
+}
+.nav_bar li{
+  float: left;
+}
+#genres ul{
+  margin-top: 10%;
+}
+#genres li{
+  float: center;
+  padding: 5px;
+}
+ul li a{
+  display: block;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+}
+ul li a:not(#discover_hmpg){
+  padding: 14px 16px;
+}
+#discover_hmpg li a{
+  padding: 10px 5px;
+  font-size: 80%;
+}
+ul li a:hover:not(.active){
+  background-color: #F8A978;
+}
+ul li a:active:not(.active){
+  color: #BADFBD;
+}
+.active{
+background-color: #BADFBD;
+}
+.clearfix{
+  overflow: auto;
+}
+.socials{
+  float: left;
+  background-color: #BADFBD;
+  margin-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  width: 20%;
+}
+
+#bookstore{
+  background-color: #F6F9EA;
+}
+#bookstore img{
+  max-width: 25%;
+  width: auto;
+  margin: 10px;
+}
+span{
+  float: center;
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+  display: block;
+}
