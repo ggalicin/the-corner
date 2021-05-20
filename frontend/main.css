@@ -1,12 +1,50 @@
+/* General Elements */
 body {
   background-color: #EDEDEE;
   color: #382D31;
   width: 100%;
 
-  font-size: 15px;
   font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
 }
 
+h1 {
+  letter-spacing: .32em;
+}
+
+div {
+  display: block;
+}
+
+h4 {
+  text-align: center;
+}
+
+p {
+  color: black;
+  font-size: 15px;
+  text-align: justify;
+}
+
+/* Links */
+
+a {
+  text-decoration: none;
+}
+
+a:not(nav ul li a),
+a:visited:not(nav ul li a) {
+  color: #C69C52;
+}
+
+a:hover:not(nav ul li a) {
+  text-decoration: underline;
+}
+
+a:active:not(nav ul li a) {
+  color: #382D31;
+}
+
+/* Content */
 .title {
   text-align: center;
 }
@@ -18,21 +56,18 @@ body {
   width: 50%;
 }
 
-a {
-  text-decoration: none;
+.website {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1140px;
 }
 
-.site-content {
-  background-color: #EDEDEE;
-  background-color:
-}
-
-.site-header {
-  color: #352F2E;
-  display: block;
+.site-header{
   box-sizing: border-box;
-  padding-left: 20%;
-  padding-right: 20%;
+
+  min-height: 200px;
+  padding-left: 10%;
+  padding-right: 10%;
   width: 100%;
 }
 
@@ -41,18 +76,42 @@ a {
   color: #EDEDEE;
 }
 
+.site-content {
+  box-sizing: border-box;
+  min-height: 200px;
+  padding-left: 10%;
+  padding-right: 10%;
+  width: 100%;
+}
+
+#latest-blog {
+  width: 75%;
+}
+
+#preview-content {
+  max-height: 125px;
+  overflow: hidden;
+}
+
+#introduction {
+  width: 75%;
+  align: center;
+}
+
+/* Navigation */
+
 nav ul {
-    text-align: center;
-    padding: 0;
-    display: flex;
-    justify-content: space-around;
-    border:1px solid #EDEDEE;
+  text-align: center;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  border:1px solid #EDEDEE;
 }
 
 nav ul li{
-    list-style-type:none;
-    padding:10px;
-    width:100%;
+  list-style-type:none;
+  padding:10px;
+  width:100%;
 }
 
 nav ul li:hover, .current-page {
@@ -60,9 +119,9 @@ nav ul li:hover, .current-page {
 }
 
 nav ul li a {
-    text-decoration:none;
-    list-style-type:none;
-    width:100%;
+  text-decoration:none;
+  list-style-type:none;
+  width:100%;
 }
 
 nav a:link, nav a:visited {
