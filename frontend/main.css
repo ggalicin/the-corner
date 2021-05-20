@@ -27,10 +27,6 @@ p {
 
 /* Links */
 
-a {
-  text-decoration: none;
-}
-
 a:not(nav ul li a),
 a:visited:not(nav ul li a) {
   color: #C69C52;
